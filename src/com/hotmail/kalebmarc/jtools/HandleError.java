@@ -86,7 +86,6 @@ public class HandleError {
 
         //TODO Maybe add more functionality to this method, since it'd make more sense to do this directly
         System.err.println(message);
-        //Maybe put a pause here, to allow user to see the error before continuing? Or, an optional pause, as a pause might not always be ideal.
 
     }
 

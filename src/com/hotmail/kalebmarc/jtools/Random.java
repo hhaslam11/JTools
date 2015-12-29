@@ -58,8 +58,8 @@ public class Random{
      * Returns a pseudorandom integer from min to max, and will only return <i>even</i> values.
      * <i>Ex.</i> 2, 4, 6, 8, 10, 12, etc. Will never return an odd value (1, 3, 5, 7, 9, Etc). If
      * the max value is < the min value, it will be assumed you wanted it the other way around.
-     * @param min
-     * @param max
+     * @param min Minimum value to be returned.
+     * @param max Maximum value to be returned.
      * @return an even pseudorandom integer from min to max
      */
     public static int rIntEven(int min, int max){
@@ -92,8 +92,8 @@ public class Random{
      * <i>Ex.</i> 1, 3, 5, 7, 9, etc. Will never return an odd value (2, 4, 6, 8, 10, Etc).
      * If the max value is < the min value, it will be assumed you wanted it the other way
      * around.
-     * @param min
-     * @param max
+     * @param min Minimum value to be returned.
+     * @param max Maximum value to be returned.
      * @return an odd pseudorandom integer from min to max
      */
     public static int rIntOdd(int min, int max){
