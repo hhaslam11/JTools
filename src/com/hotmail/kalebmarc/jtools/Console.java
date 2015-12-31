@@ -177,4 +177,22 @@ public class Console {
 
     }
 
+    /**
+     * Checks whether an integer is even or not.
+     * @param check Number to check if its even
+     * @return true if check is an even integer
+     */
+    public static boolean isEven(int check){
+        return ((check % 2) == 0);
+    }
+
+    /**
+     * Checks whether an integer is odd or not.
+     * @param check Number to check if it's odd
+     * @return true if check is an odd integer
+     */
+    public static boolean isOdd(int check){
+        return (!((check % 2) == 0));
+    }
+
 }
