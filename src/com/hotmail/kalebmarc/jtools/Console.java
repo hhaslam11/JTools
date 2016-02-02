@@ -9,7 +9,6 @@ package com.hotmail.kalebmarc.jtools;
  * @version 1.0
  * @since 1.0
  *
- *
  */
 
 public class Console {
@@ -121,7 +120,6 @@ public class Console {
         return valid.trim();
 
     }
-
     /**
      * <h1>Get Valid boolean</h1>
      * <p>Waits for the user to enter something into the terminal/command prompt,
@@ -176,7 +174,6 @@ public class Console {
         } while (true);
 
     }
-
     /**
      * Checks whether an integer is even or not.
      * @param check Number to check if its even
@@ -185,7 +182,6 @@ public class Console {
     public static boolean isEven(int check){
         return ((check % 2) == 0);
     }
-
     /**
      * Checks whether an integer is odd or not.
      * @param check Number to check if it's odd
@@ -194,5 +190,4 @@ public class Console {
     public static boolean isOdd(int check){
         return (!((check % 2) == 0));
     }
-
 }

@@ -384,7 +384,6 @@ public class ConsoleFrame {
      * @return an inputted String from user
      */
     public String getInput(){
-
         synchronized (lock){
             while(!enterPressed){
                 try {
@@ -398,5 +397,24 @@ public class ConsoleFrame {
             enterPressed = false;
             return temp;
         }
+    }
+
+    /**
+     *
+     * @return an integer that the user inputs
+     */
+    public int getInt(){
+
+        int temp;
+        while(true) {
+            try {
+                temp = Integer.parseInt(getInput());
+                return temp;
+            }catch(Exception e){
+                //Do nothing
+            }
+        }
+
+        //return in.nextInt();
     }
 }
